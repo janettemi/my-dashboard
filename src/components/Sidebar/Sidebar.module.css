@@ -1,0 +1,80 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.5px solid rgb(235, 229, 229);
+    min-height: 100vh;
+    background-color: white;
+}
+.top{
+    height: 20px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 20px;
+}
+.charts{
+    color: white;
+}
+.bases{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-size: 11px;
+    line-height: 5px;
+}
+
+.chart{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+}
+
+.dash{
+    background-color: aliceblue;
+    margin-right: 5px;
+    border-radius: 3px;
+    align-items: center;
+    margin-top: 20px;
+}
+.context{
+    margin: 5px;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.icons{
+    font-size: 18px;
+    color: blue;
+}
+
+.center{
+    padding-left: 10px;
+
+}
+ul{
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+}
+li{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span{
+    font-weight:13px;
+    margin-left: 10px;
+}
+
+.click{
+    color: blue;
+    margin: 10px;
+    border-radius: 3px;
+}
+.click:hover{
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}

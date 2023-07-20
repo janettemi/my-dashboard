@@ -1,0 +1,77 @@
+.fullpage{
+    background-color: rgb(247, 249, 250);
+    min-height: 100vh;
+}
+.tops{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-weight: 50%;
+    padding: 20px;
+    margin-right: 70px;
+}
+.chartss{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    background-color: blue;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+.basess{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #000;
+    font-size: 20px;
+    line-height: 5px;
+}
+.Error{
+    color: red;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.signin{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.page{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.form{
+    display: flex;
+    border-radius: 10px;
+}
+.pages{
+    padding: 20px;
+}
+
+.field{
+    width:18rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+    padding: 15px;
+}
+
+.loginside{
+    margin: 20px;
+    width: 20rem;
+    padding: 10px;
+}
+label{
+    color:blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.loginin{
+    color: blue;
+}
+.signin{
+
+}

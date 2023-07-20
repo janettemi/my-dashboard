@@ -1,0 +1,16 @@
+.Charts{
+    box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 12px -3px rgba(0,0,0,0.75);
+    border-radius: 6px;
+    padding: 10px;
+    width: 70%;
+}
+.title{
+padding: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title2{
+    color: green;
+}
